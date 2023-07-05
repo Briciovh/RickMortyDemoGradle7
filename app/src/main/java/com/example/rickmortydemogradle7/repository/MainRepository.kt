@@ -1,6 +1,6 @@
-package com.example.rickandmortydemo.repository
+package com.example.rickmortydemogradle7.repository
 
-import com.example.rickandmortydemo.api.rickmorty.RickAndMortyApiHelper
+import com.example.rickmortydemogradle7.api.RickAndMortyApiHelper
 import javax.inject.Inject
 
 class MainRepository @Inject constructor(private val rickAndMortyApiHelper: RickAndMortyApiHelper) {

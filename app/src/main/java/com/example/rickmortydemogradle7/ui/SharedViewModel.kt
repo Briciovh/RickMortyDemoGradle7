@@ -1,12 +1,12 @@
-package com.example.rickandmortydemo.ui
+package com.example.rickmortydemogradle7.ui
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.rickandmortydemo.model.rickmorty.CharacterResponse
-import com.example.rickandmortydemo.model.rickmorty.Results
-import com.example.rickandmortydemo.repository.MainRepository
+import com.example.rickmortydemogradle7.model.CharacterResponse
+import com.example.rickmortydemogradle7.model.Results
+import com.example.rickmortydemogradle7.repository.MainRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject
@@ -82,7 +82,7 @@ class SharedViewModel @Inject constructor(
         }
     }
 
-    fun setLoadingState(isLoading: Boolean){
+    fun setLoadingState(isLoading: Boolean) {
         mLoadingState.value = isLoading
     }
 
