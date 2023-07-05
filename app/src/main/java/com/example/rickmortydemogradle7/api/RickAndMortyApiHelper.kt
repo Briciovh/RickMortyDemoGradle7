@@ -1,4 +1,4 @@
-package com.example.rickandmortydemo.api.rickmorty
+package com.example.rickmortydemogradle7.api
 
 import com.example.rickandmortydemo.model.rickmorty.CharacterResponse
 import com.example.rickandmortydemo.model.rickmorty.Results
