@@ -1,9 +1,8 @@
 package com.example.rickmortydemogradle7.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.viewModels
-import com.example.rickmortydemogradle7.R
+import androidx.appcompat.app.AppCompatActivity
 import com.example.rickmortydemogradle7.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 
