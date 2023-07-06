@@ -1,8 +1,8 @@
-package com.example.rickandmortydemo.di
+package com.example.rickmortydemogradle7.di
 
-import com.example.rickandmortydemo.api.rickmorty.RickAndMortyApiHelper
-import com.example.rickandmortydemo.api.rickmorty.RickAndMortyApiHelperImp
-import com.example.rickandmortydemo.api.rickmorty.RickAndMortyApiService
+import com.example.rickmortydemogradle7.api.RickAndMortyApiHelper
+import com.example.rickmortydemogradle7.api.RickAndMortyApiHelperImp
+import com.example.rickmortydemogradle7.api.RickAndMortyApiService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -16,7 +16,8 @@ object RickAndMortyModule {
 
     @Provides
     @Singleton
-    fun provideApiService(retrofit: Retrofit): RickAndMortyApiService = retrofit.create(RickAndMortyApiService::class.java)
+    fun provideApiService(retrofit: Retrofit): RickAndMortyApiService =
+        retrofit.create(RickAndMortyApiService::class.java)
 
     @Provides
     @Singleton
